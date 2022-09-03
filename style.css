@@ -3,6 +3,14 @@
     padding: 10px;
 }
 
-body {
+#container {
+    height: 100%;
+    width: 100%;
+}
+
+#shell {
     background: black;
+    color: green;
+    height: max-content;
+    width: max-content;
 }
