@@ -2,8 +2,8 @@ html, body {
     margin:0px;
     height:100%;
   }
-  
-  .box {
+
+#container   {
     background:red;
     height:100%;
   }
