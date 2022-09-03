@@ -1,16 +1,67 @@
-html, body {
-    margin:0px;
-    height:100%;
-  }
-
-#container   {
-    background:red;
-    height:100%;
-  }
-
-#shell {
-    background: black;
-    color: green;
-    height: max-content;
-    width: max-content;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
 }
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #171818;
+    color: green;
+    font-size: 20;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: rgb(29, 33, 33);
+    color: green;
+    height: 4rem;
+}
+
+.navmenu a {
+    color: green;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+.main {
+    height: 100%;
+}
+
+.info {
+    height: 100%;
+    top: 50%;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
