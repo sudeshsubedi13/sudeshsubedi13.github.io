@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100%;
 }
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -52,15 +51,6 @@ li {
     padding: 5px 14px;
 }
 
-.main {
-    height: 100%;
-}
-
-.info {
-    height: 100%;
-    top: 50%;
-    padding: 10%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.category li {
+    padding: 10px;
 }
